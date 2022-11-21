@@ -21,7 +21,7 @@ const Home = () => {
             lingkungan pada masa depan
           </p>
         </div>
-        <div className="card text-center row justify-content-center">
+        <div className="card text-center">
           <div className="card-body">
             Ayo mulai selamatkan lingkungan, mulai dari diri anda!
             <Button
@@ -29,7 +29,7 @@ const Home = () => {
               style={{
                 width: "154px",
                 background: "#18A637",
-                marginLeft: "50px",
+                marginLeft: "100px",
                 padding: "10px",
                 borderRadius: "8px",
                 fontSize: "16px",
