@@ -66,6 +66,25 @@ font-family: 'Poppins', sans-serif;
     margin-top: 100px;
 }
 
+.berita {
+    padding: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
 li{
     list-style: none;
+}
+
+.geser {
+    background-color: #18A637;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.isislider {
+    margin-top: -40px;
 }

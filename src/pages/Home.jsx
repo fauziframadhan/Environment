@@ -3,12 +3,18 @@ import Bg from "./../Img/bghome.png";
 import Bg1 from "./../Img/gambar1.png";
 import Logo1 from "./../Img/earth.png";
 import Logo2 from "./../Img/arrow.png";
+import Berita1 from "./../Img/berita1.png";
+import Berita2 from "./../Img/berita2.png";
+import Berita3 from "./../Img/berita3.png";
+import Berita4 from "./../Img/berita4.png";
 
 import "./../style/Style.css";
-import { Button } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import AboutUs from "./AboutUs";
 // import Footer from "../component/Footer";
 import Footer1 from "../component/Footer1";
+import Slider from "../component/Slider";
+import CardBerita from "../component/CardBerita";
 const Home = () => {
   return (
     <HOC>
@@ -80,6 +86,53 @@ const Home = () => {
             </p>
           </div>
         </section>
+      </section>
+      <section className="geser">
+        <h4
+          style={{ marginTop: "-70PX", marginLeft: "70px", color: "#FFFFFF" }}
+        >
+          Kontribusi Kalpataru Untuk Lingkungan
+        </h4>
+        <hr style={{ color: "#FFFFFF", border: "solid" }} />
+        <Slider />
+      </section>
+      <section className="berita">
+        <div
+          className="col-12 text-start my-5"
+          style={{ marginRight: "100px" }}
+        >
+          <h4>Kategori</h4>
+          <hr />
+        </div>
+        <Container
+          className="row align-items-center"
+          style={{ position: "relative" }}
+        >
+          <div className="col-lg-3">
+            <CardBerita
+              image={Berita1}
+              isi="Dampak Perubah Iklim, Siklus Hujan Besar Semakin Cepat"
+            />
+          </div>
+          <div className="col-lg-3">
+            <CardBerita
+              image={Berita2}
+              isi="Liburan boleh asalkan jangan dirusak lingkungan sekitar"
+            />
+          </div>
+          <div className="col-lg-3">
+            <CardBerita
+              image={Berita3}
+              isi="Bagaimana potensi angin dapat tercipta?"
+            />
+          </div>
+          <div className="col-lg-3">
+            <CardBerita
+              image={Berita4}
+              isi="Potensi Ketersediaan Air Untuk Semua Orang"
+            />
+          </div>
+        </Container>
       </section>
       <section>
         <Footer1 />
