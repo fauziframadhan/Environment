@@ -7,6 +7,8 @@ import Logo2 from "./../Img/arrow.png";
 import "./../style/Style.css";
 import { Button } from "react-bootstrap";
 import AboutUs from "./AboutUs";
+// import Footer from "../component/Footer";
+import Footer1 from "../component/Footer1";
 const Home = () => {
   return (
     <HOC>
@@ -78,6 +80,9 @@ const Home = () => {
             </p>
           </div>
         </section>
+      </section>
+      <section>
+        <Footer1 />
       </section>
     </HOC>
   );
