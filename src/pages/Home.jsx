@@ -15,6 +15,7 @@ import AboutUs from "./AboutUs";
 import Footer1 from "../component/Footer1";
 import Slider from "../component/Slider";
 import CardBerita from "../component/CardBerita";
+import PDonasi from "../component/PDonasi";
 const Home = () => {
   return (
     <HOC>
@@ -95,6 +96,9 @@ const Home = () => {
         </h4>
         <hr style={{ color: "#FFFFFF", border: "solid" }} />
         <Slider />
+      </section>
+      <section>
+        <PDonasi />
       </section>
       <section className="berita">
         <div
