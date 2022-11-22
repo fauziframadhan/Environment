@@ -101,12 +101,12 @@ const Home = () => {
           className="col-12 text-start my-5"
           style={{ marginRight: "100px" }}
         >
-          <h4>Kategori</h4>
+          <h4>Berita Lainnya</h4>
           <hr />
         </div>
         <Container
           className="row align-items-center"
-          style={{ position: "relative" }}
+          style={{ marginLeft: "-270px" }}
         >
           <div className="col-lg-3">
             <CardBerita
