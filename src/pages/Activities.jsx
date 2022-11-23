@@ -15,7 +15,7 @@ const Activities = () => {
       <section className="activity" style={{ marginBottom: "30px" }}>
         <img src={ww2} alt="G1" />
         <div className="col-4 ">
-          <h4
+          <p
             className=""
             style={{
               marginLeft: "0px",
@@ -30,8 +30,8 @@ const Activities = () => {
             >
               Home
             </a>
-            > Kontribusi Kalpataru
-          </h4>
+            - Kontribusi Kalpataru
+          </p>
           <h2 style={{ paddingBottom: "20px" }}>
             Apa Saja Kontribusi Kalpataru Terhadap Lingkungan?
           </h2>

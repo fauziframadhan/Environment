@@ -7,8 +7,6 @@ import {
   MDBIcon,
 } from "mdb-react-ui-kit";
 import LogoFooter from "./../Img/Logo2.png";
-import Hubungi from "./../Img/Hubungi.png";
-import GG from "./../Img/Gmail.png";
 import IG from "./../Img/IG.png";
 import FB from "./../Img/FB.png";
 import LN from "./../Img/LN.png";
@@ -25,7 +23,7 @@ const Footer1 = () => {
           <MDBRow className="mt-3">
             <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-                <img src={LogoFooter} />
+                <img src={LogoFooter} alt="LG" />
                 <br />
                 <br />
                 <p style={{ marginLeft: "40px", color: "#FFFFFF" }}>
@@ -33,17 +31,17 @@ const Footer1 = () => {
                 </p>
                 <br />
                 <div>
-                  <a href="" className="me-4 text-reset">
-                    <img src={IG} />
+                  <a href="#" className="me-4 text-reset">
+                    <img src={IG} alt="IG" />
                   </a>
-                  <a href="" className="me-4 text-reset">
-                    <img src={FB} />
+                  <a href="#" className="me-4 text-reset">
+                    <img src={FB} alt="FB" />
                   </a>
-                  <a href="" className="me-4 text-reset">
-                    <img src={LN} />
+                  <a href="#" className="me-4 text-reset">
+                    <img src={LN} alt="LN" />
                   </a>
-                  <a href="" className="me-4 text-reset">
-                    <img src={MS} />
+                  <a href="#" className="me-4 text-reset">
+                    <img src={MS} alt="MS" />
                   </a>
                 </div>
               </h6>
@@ -58,12 +56,12 @@ const Footer1 = () => {
             >
               <h6 className="text-uppercase fw-bold mb-4">Halaman</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="google.com" className="text-reset">
                   Tentang Kami
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="google.com" className="text-reset">
                   Kontak
                 </a>
               </p>
@@ -78,12 +76,12 @@ const Footer1 = () => {
             >
               <h6 className="text-uppercase fw-bold mb-4">Lainnya</h6>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="google.com" className="text-reset">
                   Donasi
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="google.com" className="text-reset">
                   Event
                 </a>
               </p>
