@@ -29,11 +29,10 @@ const PDonasi = () => {
           style={{
             width: "146px",
             background: "#18A637",
-            marginLeft: "100px",
+            marginLeft: "90px",
             padding: "10px",
             borderRadius: "8px",
             fontSize: "16px",
-            marginLeft: "-10px",
           }}
         >
           Mulai Donasi
