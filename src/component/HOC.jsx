@@ -1,7 +1,11 @@
-const HOC = ({ children, HeaderTitle = "Kalpataru" }) => {
+import Navs from "./Navs"
+
+const HOC = ({ children, HeaderTitle = "Kalpataru", navbar=true}) => {
   return (
     <>
       <title>{HeaderTitle}</title>
+      {navbar && <Navs/>}
+
       {children}
     </>
   );

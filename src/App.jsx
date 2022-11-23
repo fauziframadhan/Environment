@@ -1,4 +1,4 @@
-import Navs from "./component/Navs";
+
 import { Route, Routes } from "react-router-dom";
 import {
   ABOUT,
@@ -19,7 +19,7 @@ import Register from "./pages/Register";
 function App() {
   return (
     <>
-      <Navs />
+      
       <Routes>
         <Route element={<Home />} path={HOME} />
         <Route element={<AboutUs />} path={ABOUT} />
