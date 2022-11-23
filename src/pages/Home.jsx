@@ -7,7 +7,7 @@ import Berita1 from "./../Img/berita1.png";
 import Berita2 from "./../Img/berita2.png";
 import Berita3 from "./../Img/berita3.png";
 import Berita4 from "./../Img/berita4.png";
-
+import Sampah from "./../Img/sampah.png";
 import "./../style/Style.css";
 import { Button, Container } from "react-bootstrap";
 import AboutUs from "./AboutUs";
@@ -100,13 +100,45 @@ const Home = () => {
       <section>
         <PDonasi />
       </section>
+      <section className="jumbotron">
+        <div>
+          <img src={Sampah} alt="Sampah" />
+          <div className="text2">
+            <h3 style={{ paddingBottom: "50px" }}>
+              Ayo mulai berkontribusi bersama kalpataru dalam pengurangan sampah
+            </h3>
+            <p style={{ fontSize: "18px" }}>
+              Mulai perjalanan anda bersama kalpataru dalam menyelamatkan
+              lingkungan, dimulai
+              <br /> dari pengolahan sampah yang anda miliki.
+            </p>
+            <br />
+            <Button
+              variant="success"
+              style={{
+                width: "168px",
+                height: "48px",
+                background: "#18A637",
+                padding: "10px",
+                borderRadius: "8px",
+                fontSize: "16px",
+                textAlign: "center",
+              }}
+            >
+              Mulai Sekarang
+            </Button>{" "}
+          </div>
+        </div>
+      </section>
       <section className="berita">
         <div
           className="col-12 text-start my-5"
           style={{ marginRight: "100px" }}
         >
-          <h4>Berita Lainnya</h4>
-          <hr />
+          <div style={{ display: "flex" }}>
+            <h4 style={{ marginLeft: "50px" }}>Berita Lainnya</h4>
+            <p className="garis"></p>
+          </div>
         </div>
         <Container
           className="row align-items-center"
