@@ -91,8 +91,43 @@ li{
 }
 
 
+
 @media (min-width: 1025px) {
     .h-custom-2 {
       height: 70%;
       }
     }
+
+.garis{
+    background-color:#A4A1A1;
+    width: 1090px;
+    height: 1.3px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #18A637;
+  border-radius: .3rem;
+  margin-top: 100px;
+  padding-bottom: 170px;
+
+}
+
+.jumbotron img {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 1400px;
+      height: 500px;
+      padding:40px;
+    }
+.text2 {
+    margin-top: -360px;
+    text-align: center;
+
+}
+    
+

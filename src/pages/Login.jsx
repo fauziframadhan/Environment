@@ -25,15 +25,16 @@ const Login = () => {
 
         <MDBCol sm='6'>
 
-          <div className='d-flex flex-row ps-5 pt-5'>
+          <div className='' style={{textAlign:"center", marginRight:"50px", paddingTop:"50px"}}>
             
-            <span className="h1 fw-bold mb-0">Kalpataru</span>
+            <span className="fw-bold mb-0"><h1>Kalpataru</h1>
+            <h4 style={{fontSize:"24px"}}>Login</h4></span>
+         
           </div>
 
-          <div className='d-flex flex-column justify-content-center h-custom-2 w-75 pt-4'>
+          <div className='d-flex flex-column justify-content-center h-custom-2 w-75 pt-4' style={{marginTop:"-50px"}}>
 
-           
-
+        
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Email' id='formControlLg' type='email' size="lg"/>
             <MDBInput wrapperClass='mb-4 mx-5 w-100' label='Password' id='formControlLg' type='password' size="lg"/>
           
