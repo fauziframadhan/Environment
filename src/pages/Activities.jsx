@@ -55,6 +55,7 @@ const Activities = () => {
               fontSize: "16px",
               textAlign: "center",
             }}
+            href="#Next"
           >
             Lihat Selengkapnya
           </Button>
@@ -62,7 +63,7 @@ const Activities = () => {
           <br />
         </div>
       </section>
-      <section className="jumbotron2">
+      <section className="jumbotron2" id="Next">
         <div style={{ height: "169px", color: "#EFF7F2", textAlign: "center" }}>
           <h1 style={{ paddingTop: "50px" }}>
             Kontribusi Kalpataru Untuk Lingkungan
@@ -112,6 +113,7 @@ const Activities = () => {
                 borderRadius: "8px",
                 fontSize: "16px",
               }}
+              href="Pengelolaan"
             >
               Lihat Selengkapnya
             </Button>{" "}

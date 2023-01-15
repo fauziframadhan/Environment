@@ -34,7 +34,7 @@ const Navs = () => {
                 About US
               </NavLink>
               <NavLink to={ACTIVITIES} className="nav-link">
-                Wha We Do
+                What We Do
               </NavLink>
               <NavLink to={DONATE} className="nav-link">
                 Donate

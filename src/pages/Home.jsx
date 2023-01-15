@@ -16,6 +16,7 @@ import Footer1 from "../component/Footer1";
 import Slider from "../component/Slider";
 import CardBerita from "../component/CardBerita";
 import PDonasi from "../component/PDonasi";
+import { KIRIM } from "../routes";
 const Home = () => {
   return (
     <HOC>
@@ -124,6 +125,7 @@ const Home = () => {
                 fontSize: "16px",
                 textAlign: "center",
               }}
+              href={KIRIM}
             >
               Mulai Sekarang
             </Button>{" "}

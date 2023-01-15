@@ -53,12 +53,14 @@ const AboutUs = () => {
             dimiliki dapat disalurkan menjadi hal-hal yang bermanfaat.
           </p>
           <br />
-          <Button variant="outline-success">Lihat Selengkapnya</Button>
+          <Button variant="outline-success" href="#Fitur">
+            Lihat Selengkapnya
+          </Button>
           <br />
           <br />
         </div>
       </section>
-      <section className="jumbotron2">
+      <section className="jumbotron2" id="Fitur">
         <div style={{ height: "169px", color: "#EFF7F2", textAlign: "center" }}>
           <h1 style={{ paddingTop: "50px" }}>
             3 Fitur Utama Yang Disediakan Kalpataru

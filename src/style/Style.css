@@ -137,3 +137,60 @@ li {
   margin-top: 100px;
   justify-content: space-around;
 }
+
+.jenis-sampah {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.jenis-sampah-kedua {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.sampah {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.cardsampah {
+  margin-left: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tps {
+  display: flex;
+  height: 589px;
+  background-image: url(../Img/tps1.png);
+  background-size: cover;
+}
+
+.cardtps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 21px;
+  gap: 10px;
+}
+
+.imagetps {
+  justify-content: left;
+  align-items: left;
+  width: 200px;
+  height: 200px;
+}

@@ -47,6 +47,7 @@ const Donate = () => {
               fontSize: "16px",
               textAlign: "center",
             }}
+            href="#Next"
           >
             Donasi Sekarang
           </Button>
@@ -54,7 +55,7 @@ const Donate = () => {
           <br />
         </div>
       </section>
-      <section className="jumbotron2">
+      <section className="jumbotron2" id="Next">
         <div style={{ height: "169px", color: "#EFF7F2", textAlign: "center" }}>
           <h1 style={{ paddingTop: "50px" }}>
             Silakan Lengkapi Data Donasi Anda
